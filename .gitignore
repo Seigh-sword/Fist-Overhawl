@@ -1,0 +1,41 @@
+# Compilers and Build Tools I think I need
+build/
+obj/
+bin/
+out/
+target/
+debug/
+release/
+
+# Executables
+*.exe
+*.elf
+*.app
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Go specific
+go.sum
+launcher
+
+# Rust specific
+**/*.rs.bk
+Cargo.lock
+
+# IDE and System Junk
+.vscode/
+.idea/
+.cache/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Game Assets and Resources
+*.bak
+*.old
